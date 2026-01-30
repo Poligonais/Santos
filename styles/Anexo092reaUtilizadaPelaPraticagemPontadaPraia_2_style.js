@@ -6,22 +6,22 @@ var style_Anexo092reaUtilizadaPelaPraticagemPontadaPraia_2 = function(feature, r
         feature: feature,
         variables: {}
     };
-    var value = ""
-    var labelText = "";
-    size = 0;
+    
+    var labelText = ""; 
+    var value = feature.get("");
     var labelFont = "10px, sans-serif";
     var labelFill = "#000000";
     var bufferColor = "";
     var bufferWidth = 0;
     var textAlign = "left";
-    var offsetX = 8;
-    var offsetY = 3;
+    var offsetX = 0;
+    var offsetY = 0;
     var placement = 'point';
     if ("" !== null) {
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(155,214,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 2.508}),fill: new ol.style.Fill({color: 'rgba(155,214,255,0.5568627450980392)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(133,162,255,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 3.268}),fill: new ol.style.Fill({color: 'rgba(133,162,255,0.43137254901960786)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
